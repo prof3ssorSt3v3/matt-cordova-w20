@@ -72,6 +72,10 @@ You should use the Cordova `dialog` plugin and its `prompt()` method to collect 
 
 Each marker needs to have an InfoWindow which will appear when the marker is tapped. Inside the InfoWindow you should display the label that was entered and a button or link that can be tapped to remove the marker from the map and localStorage.
 
+## Icons and Splashscreen
+
+Your app needs to have custom splashscreen and launcher icons. Place them in the res/ios or res/android folder, depending on the platform you are building for. Make sure that they are the correct sizes.
+
 ## Getting Started
 
 Start on paper. Plan the app, the components, the interface, the functions, and any global variables.
