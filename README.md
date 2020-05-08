@@ -92,8 +92,9 @@ git add .
 git commit -m 'create starter files'
 git push origin master
 cordova platform add <platform of your choice>
-cordova plugin add cordova-plugin-dialogs
 cordova plugin add cordova-plugin-geolocation
+cordova plugin add cordova-plugin-dialogs
+cordova plugin add cordova-plugin-splashscreen
 ```
 
 - Now you should be ready to start your coding.
